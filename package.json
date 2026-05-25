@@ -14,12 +14,13 @@
     "prepare": "simple-git-hooks install",
     "update-source": "git submodule update --remote source"
   },
-  "packageManager": "pnpm@10.25.0+sha512.5e82639027af37cf832061bcc6d639c219634488e0f2baebe785028a793de7b525ffcd3f7ff574f5e9860654e098fe852ba8ac5dd5cefe1767d23a020a92f501",
+  "packageManager": "pnpm@11.3.0+sha512.2c403d6594527287672b1f7056343a1f7c3634036a67ffabfcc2b3d7595d843768f8787148d1b57cf7956c90606bbd192857c363af19e96d2d0ec9ec5741d215",
   "devDependencies": {
-    "@biomejs/biome": "2.3.8",
-    "lint-staged": "^16.2.7",
+    "@biomejs/biome": "2.4.15",
+    "@types/node": "^25.9.1",
+    "lint-staged": "^17.0.5",
     "simple-git-hooks": "^2.13.1",
-    "turbo": "^2.6.3"
+    "turbo": "^2.9.14"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
@@ -27,34 +28,6 @@
   "lint-staged": {
     "*": [
       "biome check --write --no-errors-on-unmatched --files-ignore-unknown=true"
-    ]
-  },
-  "pnpm": {
-    "overrides": {
-      "array-includes": "npm:@nolyfill/array-includes@^1",
-      "array.prototype.findlastindex": "npm:@nolyfill/array.prototype.findlastindex@^1",
-      "array.prototype.flat": "npm:@nolyfill/array.prototype.flat@^1",
-      "array.prototype.flatmap": "npm:@nolyfill/array.prototype.flatmap@^1",
-      "hasown": "npm:@nolyfill/hasown@^1",
-      "is-core-module": "npm:@nolyfill/is-core-module@^1",
-      "is-regex": "npm:@nolyfill/is-regex@^1",
-      "isarray": "npm:@nolyfill/isarray@^1",
-      "object.fromentries": "npm:@nolyfill/object.fromentries@^1",
-      "object.groupby": "npm:@nolyfill/object.groupby@^1",
-      "object.values": "npm:@nolyfill/object.values@^1",
-      "safe-buffer": "npm:@nolyfill/safe-buffer@^1",
-      "safer-buffer": "npm:@nolyfill/safer-buffer@^1",
-      "string.prototype.trimend": "npm:@nolyfill/string.prototype.trimend@^1",
-      "typedarray": "npm:@nolyfill/typedarray@^1"
-    },
-    "onlyBuiltDependencies": [
-      "@biomejs/biome",
-      "@tailwindcss/oxide",
-      "esbuild",
-      "sharp",
-      "simple-git-hooks",
-      "unrs-resolver",
-      "workerd"
     ]
   }
 }

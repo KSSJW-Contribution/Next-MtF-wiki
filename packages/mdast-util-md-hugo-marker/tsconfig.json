@@ -6,7 +6,8 @@
     "declarationMap": true,
     "emitDeclarationOnly": true,
     "exactOptionalPropertyTypes": true,
-    "lib": ["es2022"],
+    "lib": ["es2022", "DOM"],
+    "types": ["node"],
     "module": "node16",
     "outDir": "lib",
     "rootDir": ".",
@@ -15,5 +16,5 @@
     "target": "es2022"
   },
   "exclude": ["coverage/", "node_modules/", "lib/"],
-  "include": ["**/*.js", "index.d.ts"]
+  "include": ["**/*.js", "test-mtf-wiki.js", "test.js", "index.d.ts"]
 }
