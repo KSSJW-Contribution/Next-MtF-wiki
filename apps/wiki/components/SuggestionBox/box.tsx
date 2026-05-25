@@ -15,7 +15,7 @@ export default function SuggestionBoxInner(props: SuggestionBoxProps) {
         '--c-textarea-bg-light': 'var(--color-base-100)',
         '--c-contact-bg-light': 'var(--color-base-100)',
       }}
-      targetUrl="https://suggestion-box.project-trans.org/api/v1/suggestion"
+      target-url="https://suggestion-box.project-trans.org/api/v1/suggestion"
     />
   );
 }
