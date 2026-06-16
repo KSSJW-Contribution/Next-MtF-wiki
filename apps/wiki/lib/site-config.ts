@@ -141,11 +141,6 @@ export const siteConfig: SiteConfig = {
       subfolders: ['docs', 'about'],
       noMarkdown: getGlobalNoMarkdown(),
     },
-    {
-      code: 'es',
-      subfolders: ['docs', 'about'],
-      noMarkdown: getGlobalNoMarkdown(),
-    },
   ],
 };
 

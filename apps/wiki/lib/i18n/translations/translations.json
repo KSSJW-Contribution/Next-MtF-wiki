@@ -3,161 +3,138 @@
     "zh-cn": "文档",
     "zh-hant": "文檔",
     "ja": "ドキュメント",
-    "es": "Documentos",
     "en": "Documents"
   },
   "about": {
     "zh-cn": "关于",
     "zh-hant": "關於",
     "ja": "について",
-    "es": "Acerca de",
     "en": "About"
   },
   "converter": {
     "zh-cn": "激素换算",
     "zh-hant": "荷爾蒙換算",
     "ja": "ホルモン換算",
-    "es": "Conversión de hormonas",
     "en": "Hormone Converter"
   },
   "cupCalculator": {
     "zh-cn": "胸围计算",
     "zh-hant": "胸圍計算",
     "ja": "ブラジャーサイズ計算",
-    "es": "Calculadora de talla de sujetador",
     "en": "Cup Calculator"
   },
   "tableOfContents": {
     "zh-cn": "目录",
     "zh-hant": "目錄",
     "ja": "目次",
-    "es": "Índice",
     "en": "Table of Contents"
   },
   "showToc": {
     "zh-cn": "显示目录",
     "zh-hant": "顯示目錄",
     "ja": "目次を表示",
-    "es": "Mostrar índice",
     "en": "Show Table of Contents"
   },
   "noToc": {
     "zh-cn": "此页面暂无目录",
     "zh-hant": "此頁面暫無目錄",
     "ja": "このページには目次がありません",
-    "es": "Esta página no tiene índice",
     "en": "No table of contents for this page"
   },
   "footnoteLabel": {
     "zh-cn": "注释",
     "zh-hant": "注釋",
     "ja": "注釈",
-    "es": "Nota",
     "en": "Footnote"
   },
   "navigation": {
     "zh-cn": "导航",
     "zh-hant": "導航",
     "ja": "ナビゲーション",
-    "es": "Navegación",
     "en": "Navigation"
   },
   "previousPage": {
     "zh-cn": "上一页",
     "zh-hant": "上一頁",
     "ja": "前のページ",
-    "es": "Página anterior",
     "en": "Previous Page"
   },
   "nextPage": {
     "zh-cn": "下一页",
     "zh-hant": "下一頁",
     "ja": "次のページ",
-    "es": "Página siguiente",
     "en": "Next Page"
   },
   "childPages": {
     "zh-cn": "子页面",
     "zh-hant": "子頁面",
     "ja": "子ページ",
-    "es": "Páginas secundarias",
     "en": "Child Pages"
   },
   "mtfwiki": {
     "zh-cn": "MtF.wiki",
     "zh-hant": "MtF.wiki",
     "ja": "MtF.wiki",
-    "es": "MtF.wiki",
     "en": "MtF.wiki"
   },
   "themeSettings": {
     "zh-cn": "主题设置",
     "zh-hant": "主題設置",
     "ja": "テーマ設定",
-    "es": "Configuración de tema",
     "en": "Theme Settings"
   },
   "themeSystem": {
     "zh-cn": "跟随系统",
     "zh-hant": "跟隨系統",
     "ja": "システムに従う",
-    "es": "Seguir sistema",
     "en": "Follow System"
   },
   "themeSystemDesc": {
     "zh-cn": "自动",
     "zh-hant": "自動",
     "ja": "自動",
-    "es": "Automático",
     "en": "Automatic"
   },
   "themeLight": {
     "zh-cn": "浅色主题",
     "zh-hant": "淺色主題",
     "ja": "ライトテーマ",
-    "es": "Tema claro",
     "en": "Light Theme"
   },
   "themeLightDesc": {
     "zh-cn": "使用浅色主题",
     "zh-hant": "使用淺色主題",
     "ja": "ライトテーマを使用",
-    "es": "Usar tema claro",
     "en": "Use light theme"
   },
   "themeDark": {
     "zh-cn": "深色主题",
     "zh-hant": "深色主題",
     "ja": "ダークテーマ",
-    "es": "Tema oscuro",
     "en": "Dark Theme"
   },
   "themeDarkDesc": {
     "zh-cn": "使用深色主题",
     "zh-hant": "使用深色主題",
     "ja": "ダークテーマを使用",
-    "es": "Usar tema oscuro",
     "en": "Use dark theme"
   },
   "currentTheme": {
     "zh-cn": "当前主题",
     "zh-hant": "當前主題",
     "ja": "現在のテーマ",
-    "es": "Tema actual",
     "en": "Current Theme"
   },
   "fontSettings": {
     "zh-cn": "字体设置",
     "zh-hant": "字體設置",
     "ja": "フォント設定",
-    "es": "Configuración de fuente",
     "en": "Font Settings"
   },
   "currentFont": {
     "zh-cn": "当前字体",
     "zh-hant": "當前字體",
     "ja": "現在のフォント",
-    "es": "Fuente actual",
     "en": "Current Font"
   }
 }
